@@ -1,0 +1,79 @@
+body{
+    font-size: 15px;
+    line-height: 19px;
+    background: #fff;
+    color: #000;
+    font-family: 'Arial';
+}
+
+h1 {
+    color: #192952;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #03275F;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    margin: 0.9em 0;
+}
+
+.clr{
+    clear: both;
+}
+
+.wrap {
+    padding: 10px 20px;
+}
+.header{
+    border-bottom: 1px solid #000;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+.logo{
+    padding: 0 0 15px 0;
+}
+
+.print_link a{
+    float: left;
+    padding: 0 0 0 20px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.print_link a:hover{
+    text-decoration: underline;
+}
+
+.date{
+    color: #888888;
+    font-size: 14px;
+    padding: 5px 0 10px 0;
+}
+.footer{
+    font-size: 11px;
+    line-height: 14px;
+    padding: 15px 0 0 0;
+    border-top: 1px solid #000;
+}
+.main_idea{
+    font-style: italic;
+    color: #e0173d;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 20px 0 20px 28px;
+}
+
+.header-container {
+    float:left;
+}

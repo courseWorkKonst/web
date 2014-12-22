@@ -1,0 +1,214 @@
+.banner-c {
+    box-sizing: border-box;
+    width: 430px;
+    height: 80px;
+    margin: 5px auto;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+}
+
+.banner-c img {
+    width: 410px;
+    height: 60px;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    top: -205px;
+    left: -205px;
+}
+
+.bsort {
+    font-size: 10pt;
+    width: 100%;
+    padding: 0 5px;
+}
+
+ul.bsort {
+    margin: 0 0 0 -10px;
+    float: left;
+}
+
+ul.bsort > li {
+    float: left;
+    display: block;
+    padding: 0 5px;
+    border-right: 1px solid #8a8a8a;
+}
+
+ul.bsort > li:last-child {
+    border-right: none
+}
+
+span.triagle-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #2092d3;
+    position: relative;
+    top: -1px;
+    margin: 0 3px;
+}
+
+.bcontent {
+    position: relative;
+    width: 440px;
+    margin: 0 auto;
+    top: 10px;
+}
+
+
+.bc-name {
+    height: 40px;
+}
+
+.binc-name {
+    height: 35px;
+
+}
+
+h2 {
+    margin: 0;
+    font-weight: normal;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 12pt;
+}
+
+.grm {
+    display: inline-block;
+    background: url(../images/spline.png);
+    background-position: -310px -60px;
+    width: 32px;
+    height: 31px;
+    margin: 0 7px;
+}
+
+.t {
+    margin-left: 5px;
+}
+
+.mc {
+    background-color: #FFF;
+
+    border-width: 0;
+    border-top-width: 1px;
+}
+
+.imc {
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    margin-top: 7px;
+}
+
+.imc-name {
+    box-shadow: inset  0  2px 2px -2px #FFF;
+    height: 25px;
+    background: linear-gradient(0deg, #f4f4f4, #e6e6e6 80%) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6e6e6, endColorstr=#f4f4f4);
+    display: table-cell;
+    vertical-align: middle;
+    width: 440px;
+    font-size: 10.5pt;
+    padding: 0 5px;
+}
+
+.imc-name img {
+    position: relative;
+    top: 1px;
+}
+
+
+.imcs-c {
+    padding: 5px;
+    font-size: 10pt;
+}
+
+.imc-control {
+    min-height: 15px;
+    background-color: #ffaf00;
+    position: relative;
+    top: -2px;
+    font-size: 9pt;
+    color: #FFF;
+    padding: 2px 5px;
+}
+
+.imc-control > a {
+    color: #FFF;
+}
+
+.imc-control, .imc-name {
+    border-radius: 4px 4px 0 0;
+}
+
+.c {
+    overflow: hidden;
+    width: 100%;
+}
+
+.bpage-change {
+    height: 27px;
+    margin: 5px auto;
+    font-size: 10pt;
+    width: 227px;
+    border-spacing: 7px 11px;
+}
+
+.bpage-change ul  {
+    display: table-row;
+    list-style-type: none;
+}
+
+.bpage-change ul > li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dbdbdb;
+    background-color: #f2f2f2;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bpage-change ul > li:hover {
+    background-color: #74b6f6;
+    border-color: #2092d3;
+}
+
+.bpage-change ul > li > a {
+    color: #444444;
+    display: block;
+    text-decoration: none;
+}
+
+.bpage-change ul > li > a:hover {
+    color: #FFF;
+}
+
+.bpage-change ul > li:first-child, .bpage-change ul > li:last-child {
+    width: 50px;
+}
+
+img.f-g-warming {
+    width: 200px;
+    height: 100px;
+    float: right;
+    padding: 3px;
+}
+
+.binmenu-name > h2 {
+    position: relative;
+    top: -6px;
+}
+
+.green-plus {
+    display: inline-block;
+    background: url(../images/spline.png);
+    background-position: -26px -72px;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+}

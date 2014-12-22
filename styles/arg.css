@@ -1,0 +1,9 @@
+.user_agree h1{
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+.user_agree li{
+    margin: 10px;
+}

@@ -1,0 +1,116 @@
+.header {
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+    position: relative;
+}
+
+.blogo {
+    height: 100%;
+    float: left;
+    width: 319px;
+    border-radius: 4px 0 0 0;
+    border: 5px solid #f2f2f2;
+    position: relative;
+    z-index: 100;
+    border-bottom: none;
+    border-right: none;
+    background-color: #FFF;
+}
+
+.f {
+    background-image: url(../images/spline.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 117px;
+    float: left;
+    position: relative;
+    margin-left: -5px;
+    background-position: -190px -60px;
+}
+
+.bg-logo {
+    top: 0;
+    background: url(../images/spline.png) no-repeat;
+    background-position: -0px -0px;
+    width: 370px;
+    height: 60px;
+    position: absolute;
+}
+
+.bblue-logo {
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    top: -15px;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    top: 17px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.thmenu {
+    height: 100%;
+    width: 150px;
+    float: left;
+    font-size: 10.5pt;
+    position: relative;
+    left: -80px;
+}
+
+.thmenu > ul {
+    position: relative;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    list-style-image: url(../images/plus.png);
+    z-index: 100;
+}
+
+.thmenu > ul > li {
+    float: right;
+    line-height: 17px;
+}
+
+.thmenu > ul > li > a {
+    color: #FFF;
+}
+
+.btop-banner {
+    float: left;
+    width: 430px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin-left: -80px;
+}
+
+.btop-banner > a > img {
+    vertical-align: middle;
+    height: 56px;
+    width: 430px;
+    position: relative;
+    top: 5px;
+    margin: 0 10px;
+}
+
+.r {
+    background: url(../images/spline.png);
+    background-position: -38px -72px;
+    width: 11px;
+    height: 10px;
+    display: inline-block;
+}
+
+.rss-img {
+    background: url(../images/spline.png);
+    background-position: -342px -60px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}

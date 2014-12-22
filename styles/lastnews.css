@@ -1,0 +1,86 @@
+.n {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.blastnews, .photo {
+    display: table-cell;
+}
+
+.blastnews {
+    width: 75%;
+    border-right: 1px solid #9a9a9a;
+    text-align: left;
+}
+
+.photo {
+    width: 25%;
+}
+
+.blastnews ul {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+.gd {
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+hr.gdhr {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+ul.trs > li {
+    display: table-row;
+}
+
+
+.date, .text-news {
+    display: table-cell;
+    height: 25px;
+}
+
+.date {
+    width: 50px;
+    font-size: 10pt;
+}
+
+li.ac, li.ac  a {
+    color: #a92113;
+}
+
+.read {
+    color: #9a9a9a;
+    font-size: 8pt;
+    margin-left: 5px;
+}
+
+.read-c {
+    font-size: 9pt;
+    color: #005400;
+}
+
+.fff {
+    text-transform: uppercase;
+    font-size: 11pt;
+}
+
+.vbn {
+    position: relative;
+    top: -15px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.tgs {
+    position: relative;
+    top: -7px;
+}

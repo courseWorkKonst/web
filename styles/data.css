@@ -1,0 +1,149 @@
+.data {
+    border-radius: 0 5px 5px 5px;
+    border: 5px solid #f2f2f2;
+    width: 100%;
+    z-index: 90;
+    position: relative;
+    top: -6px;
+    background-color: #FFF;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.outdata {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0 0;
+}
+
+.tmenu-shadow {
+    border-radius: 4px 4px 0 0;
+    height: 4px;
+    width: 946px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    margin: 7px auto;
+    margin-bottom: 4px;
+    z-index: 1000;
+    position: relative;
+}
+
+.bnav-site {
+    border: none;
+    border-top: 1px dashed #d2d2d2;
+    display: table;
+    width: 100%;
+}
+
+.bnav-top-line {
+    display: table-row;
+    width: 100%;
+    height: 4px;
+    background-color: #28a9dd;
+}
+
+.bnav {
+    height: 30px;
+    background: linear-gradient(0deg, #3baeef, #248ed1 100%) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#248ed1, endColorstr=#3baeef);
+    color: #FFF;
+    display: table-row;
+}
+
+.speedbar {
+    line-height: 30px;
+    float: left;
+    padding-left: 10px;
+    font-size: 10.5pt;
+}
+
+.speedbar > a {
+    color: #ffda00;
+}
+
+.home {
+    position: relative;
+    padding-left: 3px;
+}
+
+.rss {
+    display: table-cell;
+    font-size: 0;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.orange {
+    width: 100%;
+    height: 9px;
+    background-color: #ffaf00;
+}
+
+.bo-c {
+    margin: 0 250px;
+    background-color: #3baeef;
+    height: 20px;
+    position: relative;
+    top: -2px;
+}
+
+.h {
+    position: relative;
+    top: -6px;
+    overflow: hidden;
+}
+
+.bsearch {
+    height: 30px;
+    background: linear-gradient(0deg, #248ed1, #3baeef 100%) no-repeat;
+    color: #FFF;
+    border-radius: 0 0 4px 4px;
+    border-bottom: 2px solid #71c9fb;
+    padding: 0 5px 5px 5px;
+}
+
+.bin-search {
+    border: 2px solid #71c9fb;
+    border-radius: 4px;
+    height: 100%;
+    width: 430px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.fbseach {
+    width: 430px;
+    height: 31px;
+}
+
+.fbcseach {
+    width: 380px;
+    height: 21px;
+    display: table-row;
+}
+
+.fbcseach > input {
+    width: 304px;
+    padding-left: 4px;
+    position: relative;
+    height: 18px;
+}
+
+.fbcseach > button {
+    margin-left: -5px;
+    background-color: #ffb100;
+    color: #000;
+    width: 70px;
+    height: 20px;
+}
+
+.fbcseach > input, .fbcseach > button {
+    border: none;
+}
+
+.vac {
+    position: relative;
+    top: 4px;
+}

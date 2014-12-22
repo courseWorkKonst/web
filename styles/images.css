@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.image-b {
+    width: 210px;
+    margin: 0 5px;
+    float: left;
+}
+
+.bimage-outer {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #b3b3b3;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 5px 0;
+}
+
+.bimage-inner {
+    position: relative;
+    top: -3px;
+    border-bottom: 1px solid #b3b3b3;
+    overflow: hidden;
+}
+
+.bphoto > img {
+    width: 200px;
+    margin: 5px;
+    height: 100px;
+    border-radius: 2px;
+    position: relative;
+    top: 3px;
+}
+
+.bphoto {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.t-image {
+    font-size: 10pt;
+    padding: 4px;
+}
+
+button.img {
+    -moz-user-select: none;
+    background: #248ed1;
+    border: 1px solid #2182c0;
+    box-shadow: 0 1px #4C6BC7 inset;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #248ed1;
+    font: 11px Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ib {
+    text-align: right;
+    padding: 3px 5px;
+}
+
+a.like {
+    font-size: 9pt;
+    color: #2182c0;
+    padding: 0 7px;
+}

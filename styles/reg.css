@@ -1,0 +1,148 @@
+.breg {
+    margin: 10px auto;
+    width: 600px;
+}
+
+.breg table {
+    width: 100%;
+}
+
+td.fr {
+    height: 40px;
+}
+
+td.fr > td:first-child {
+
+}
+
+td.fr > td {
+    vertical-align: middle;
+}
+
+.breg input, .breg select {
+    font-family:Arial, Helvetica, sans-serif;
+    padding:3px;
+    color:#333333;
+    border:1px solid #96A6C5;
+    margin-top:2px;
+    border-radius: 4px;
+    font-size:11px;
+    height: 22px;
+}
+
+.breg select {
+    height: 30px;
+}
+
+td.fi > input {
+
+}
+
+input.fn-and-ln {
+    width: 195px;
+}
+
+span.radio {
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+.breg tr > td:nth-child(2n+1) {
+    padding: 0 10px;
+}
+
+.breg th {
+    font-size: 20pt;
+}
+
+td.center {
+    text-align: center;
+}
+
+.email-t {
+    padding-right: 10px;
+}
+
+input.email {
+    width: 300px;
+}
+
+td.reg-pol {
+    font-size: 10pt;
+    text-align: center;
+}
+
+button.reg {
+    -moz-user-select: none;
+    background: #248ed1;
+    border: 1px solid #2182c0;
+    box-shadow: 0 1px #4C6BC7 inset;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #248ed1;
+    font: 11px Verdana, sans-serif;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.white_layer{
+    border: 1px solid #e8e8e8;
+    margin-left: -1px;
+    width: 170px;
+    height: 107px;
+    background-color: #FFF;
+    display: table-cell;
+}
+
+.bs {
+    display: table-row;
+}
+
+.white_layer img {
+    width: 160px;
+    height: 97px;
+    margin: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.white_layer:hover {
+    background: #ffdab3;
+    border-color: #d9d9d9;
+}
+
+.bs1 {
+    width: 100%;
+    height: 100%;
+    background: url("../images/4378233_orig.jpg") no-repeat center;
+}
+
+.branch {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.arrow-l, .arrow-r {
+    position: absolute;
+    top: 45px;
+    z-index: 1001;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #818181;
+    background: #d4d4d4;
+}
+
+.arrow-l {
+    left: 5px;
+}
+
+.arrow-r {
+    left: 875px;
+}
